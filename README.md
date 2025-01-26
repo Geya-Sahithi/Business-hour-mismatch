@@ -9,7 +9,7 @@
 
 **Example** of business hours in Doordash
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9b01eb2b-f52b-49a9-9458-39a346cba6ab/Untitled.png)
+![Untitled](images/img1.png)
 
 **Goal** 
 
@@ -41,8 +41,7 @@ Take the first key value pair in the menu dictionary and the first section and a
 
 Note: daysBitArray starts with Monday and indicates the days of the week for this time window is applicable. The might be more than element in the regularHours array. 
 
-![Screen Shot 2022-10-11 at 10.39.59 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8055c4a3-bc72-4c10-9068-817525dc53c7/Screen_Shot_2022-10-11_at_10.39.59_PM.png)
-
+![Untitled](images/img2.png)
 **Grubhub Business Hours** 
 
 Grubhub
@@ -52,8 +51,7 @@ Grubhub
 | johnspizz_sicilianpi_gh | SELECT response FROM `arboreal-vision-339901.take_home_v2.virtual_kitchen_grubhub_hours` LIMIT 1000; |  |
 |  |  |  |
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8ae8a8a1-398a-4ce4-b63c-0e20c7551b47/Untitled.png)
-
+![Untitled](images/img3.png)
 **Output** 
 
 | Grubhub slug | Virtual Restuarant Business Hours | Uber Eats slug | Uber Eats Business Hours | is_out_range **(expected output)** |
